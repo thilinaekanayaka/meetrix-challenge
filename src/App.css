@@ -1,10 +1,22 @@
 .App {
   text-align: center;
+  font-family: 'Avenir', 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.timer-face {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.button {
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 4px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
